@@ -1,0 +1,9 @@
+{
+	"name": "myadftestfactory",
+	"location": "eastus",
+	"identity": {
+		"type": "SystemAssigned",
+		"principalId": "75afe351-cf6f-4abe-b145-05cce94b2e48",
+		"tenantId": "41afec1b-f7fa-4383-b453-72429225b1b4"
+	}
+}
