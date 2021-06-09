@@ -10,6 +10,8 @@
 		"typeProperties": {
 			"location": {
 				"type": "AzureBlobFSLocation",
+				"fileName": "population_by_age.txt",
+				"folderPath": "test",
 				"fileSystem": "raw"
 			},
 			"columnDelimiter": "\t",
