@@ -1,0 +1,36 @@
+{
+	"$schema": "https://schema.management.azure.com/schemas/2015-01-01/deploymentParameters.json#",
+	"contentVersion": "1.0.0.0",
+	"parameters": {
+		"factoryName": {
+			"value": "adfsandeep"
+		},
+		"AzureBlobStorage1_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_accountKey": {
+			"value": ""
+		},
+		"destinationdl_accountKey": {
+			"value": ""
+		},
+		"sourceblob_connectionString": {
+			"value": ""
+		},
+		"AzureDataLakeStorage1_properties_typeProperties_url": {
+			"value": "https://adfdatalakesa.dfs.core.windows.net"
+		},
+		"destinationdl_properties_typeProperties_url": {
+			"value": "https://adfreportingdl.dfs.core.windows.net"
+		},
+		"trigger1_properties_typeProperties_scope": {
+			"value": "/subscriptions/737d7428-f284-459a-851a-383947ba1b7d/resourceGroups/test/providers/Microsoft.Storage/storageAccounts/adfreporting"
+		},
+		"containerUri": {
+			"value": ""
+		},
+		"containerSasToken": {
+			"value": ""
+		}
+	}
+}
